@@ -1,0 +1,20 @@
+{
+  "name": "react-from-scratch-typescript",
+  "version": "1.0.0",
+  "description": "A template for a react app built from scratch set up for use with typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexGaiser/react-from-scratch-typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexGaiser/react-from-scratch-typescript/issues"
+  },
+  "homepage": "https://github.com/AlexGaiser/react-from-scratch-typescript#readme"
+}
