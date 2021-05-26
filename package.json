@@ -4,7 +4,9 @@
   "description": "A template for a react app built from scratch set up for use with typescript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode development",
+    "start": "webpack serve --open"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,26 @@
   "bugs": {
     "url": "https://github.com/AlexGaiser/react-from-scratch-typescript/issues"
   },
-  "homepage": "https://github.com/AlexGaiser/react-from-scratch-typescript#readme"
+  "homepage": "https://github.com/AlexGaiser/react-from-scratch-typescript#readme",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-hot-loader": "^4.3.11"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.0",
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/preset-react": "^7.13.13",
+    "babel-loader": "^8.2.2",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^5.2.6",
+    "html-webpack-plugin": "^5.3.1",
+    "style-loader": "^2.0.0",
+    "typescript": "^4.2.4",
+    "webpack": "^5.37.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  }
 }
