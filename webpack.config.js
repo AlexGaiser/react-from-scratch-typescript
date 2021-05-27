@@ -2,7 +2,7 @@ const path = require('path');
 const webpack = require('webpack');
 
 module.exports = {
-  entry: './src/index.js',
+  entry: './src/index.tsx',
   mode: 'development',
   module: {
     rules: [
@@ -11,6 +11,11 @@ module.exports = {
         exclude: /(node_modules|bower_components)/,
         loader: 'babel-loader',
         options: { presets: ['@babel/env'] },
+      },
+      {
+        test: /\.(ts|tsx)$/,
+        exclude: /(node_modules|bower_components)/,
+        use: ['ts-loader'],
       },
       {
         test: /\.css$/,
